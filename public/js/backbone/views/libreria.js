@@ -30,7 +30,7 @@ app.Libreria = Backbone.View.extend({
 	},
 
 	resetLibro: function(){
-		$('.libros').html('');
+		$('.libros').html('<h1>Libros</h1>');
 		app.libros.each(this.mostrarLibro, this);
 	}
 
